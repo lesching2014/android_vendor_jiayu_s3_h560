@@ -1,3 +1,5 @@
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/JIAYU/S3/app,system/app)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/JIAYU/S3/lib,system/lib)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/JIAYU/S3/lib64,system/lib64)
