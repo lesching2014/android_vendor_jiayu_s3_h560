@@ -12,4 +12,4 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/xbin,
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/bin,system/bin)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/vendor,system/vendor)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/jiayu/s3_h560/vendor,$(TARGET_COPY_OUT_VENDOR))
