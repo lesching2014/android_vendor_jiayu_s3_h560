@@ -8,7 +8,7 @@ PRODUCT_PACKAGES := \
 
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
-    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
+    packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/jiayu/s3_h560/overlay
